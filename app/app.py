@@ -11,6 +11,7 @@ cursor.execute("CREATE TABLE IF NOT EXISTS usuarios (id INT AUTO_INCREMENT PRIMA
 cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Roman')")
 cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Jose')")
 cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Thomas')")
+cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Ramon')")
 connection.commit
 
 cursor.execute("SELECT * FROM usuarios")
