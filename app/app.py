@@ -9,9 +9,6 @@ connection = mysql.connector.connect (
 cursor = connection.cursor()
 cursor.execute("CREATE TABLE IF NOT EXISTS usuarios (id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(255))")
 cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Roman')")
-cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Jose')")
-cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Thomas')")
-cursor.execute("INSERT INTO usuarios (nombre) VALUES ('Ramon')")
 connection.commit
 
 cursor.execute("SELECT * FROM usuarios")
