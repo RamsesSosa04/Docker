@@ -1,5 +1,5 @@
 #Imagen base de python
-FROM python:3.10
+FROM python:3.11-slim
 
 #Es para crear un directorio de trabajo dentro del contenedor 
 WORKDIR /app
