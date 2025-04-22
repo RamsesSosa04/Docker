@@ -6,6 +6,7 @@ WORKDIR /app
 
 #Para copiar archivos
 COPY app/ app/
+COPY requirements.txt . 
 
 #Instalar dependencias
 RUN pip install -r requirements.txt
