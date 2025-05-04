@@ -1,1 +1,1 @@
-This repository is for learning Docker
+This repository is for learning Docker.
