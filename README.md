@@ -1,1 +1,1 @@
-This repository is for testing Docker in a project.
+This repository is for testing Docker on a real project.
