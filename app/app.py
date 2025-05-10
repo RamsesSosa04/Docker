@@ -4,7 +4,7 @@ connection = mysql.connector.connect (
     host = "",
     user = "",
     password = "",
-    database = "dbmastertest"
+    database = ""
 )
 cursor = connection.cursor()
 cursor.execute("CREATE TABLE IF NOT EXISTS usuarios (id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(255))")
